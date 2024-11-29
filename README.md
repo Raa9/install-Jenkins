@@ -86,12 +86,12 @@ Jenkins is now installed and ready to use on your Yum-based Linux server. Refer 
 # Jenkins Installation on UBUNTU
 
 ##create a file name jenkins.sh
-'''bash
+```bash
 vi jenkins.sh
-'''
+```
 
 ## use the script
-'''bash
+```bash
 sudo apt update -y
 #sudo apt upgrade -y
 wget -O - https://packages.adoptium.net/artifactory/api/gpg/key/public | tee /etc/apt/keyrings/adoptium.asc
@@ -108,13 +108,13 @@ sudo apt-get update -y
 sudo apt-get install jenkins -y
 sudo systemctl start jenkins
 sudo systemctl status jenkins
-'''
+```
 
 ## give the ownership and run 
-'''bash
+```bash
 sudo chmod 777 jenkins.sh
 ./jenkins.sh    # this will installl jenkins
-'''
+```
 
 
 # Jenkins Installation on Windows

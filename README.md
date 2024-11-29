@@ -83,7 +83,7 @@ Your Jenkins instance is now up and running. You can start creating jobs and pip
 ## Conclusion
 Jenkins is now installed and ready to use on your Yum-based Linux server. Refer to the Jenkins documentation for more advanced configuration and usage.
 
-# Jenkins Installation on Windows
+# Jenkins Installation on UBUNTU
 
 ##create a file name jenkins.sh
 '''bash
@@ -92,7 +92,6 @@ vi jenkins.sh
 
 ## use the script
 '''bash
-#!/bin/bash
 sudo apt update -y
 #sudo apt upgrade -y
 wget -O - https://packages.adoptium.net/artifactory/api/gpg/key/public | tee /etc/apt/keyrings/adoptium.asc
